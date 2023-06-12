@@ -1,3 +1,4 @@
-currency_rate.db
-cotacao.txt
-go.sum
+
+server/go.sum
+client/cotacao.txt
+server/currency_rate.db
