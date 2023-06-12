@@ -48,14 +48,15 @@ O endpoint necessário gerado pelo server.go para este desafio será: /cotacao e
 Instruções para rodar o projeto.
 
 ```
+cd server
 go mod tidy
 
 go run server/server.go
 go run client/client.go
 ```
-A tabela do banco de dados será criada automaticamente
+A tabela do banco de dados será criada automaticamente em server
 
-O arquivo cotação.txt pode ser encontrado na raiz do projeto
+O arquivo cotação.txt pode ser encontrado na pasta client
 
 
 ---

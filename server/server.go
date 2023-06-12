@@ -60,7 +60,7 @@ func initDB() error {
   code TEXT
   );`
 
-	db, err = sql.Open("sqlite", "../currency_rate.db")
+	db, err = sql.Open("sqlite", "./currency_rate.db")
 	if err != nil {
 		return err
 	}
